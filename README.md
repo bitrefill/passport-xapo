@@ -1,6 +1,6 @@
 # passport-xapo
 
-![License](https://img.shields.io/npm/l/passport-facebook-token.svg)
+![License](https://img.shields.io/npm/l/passport-xapo.svg)
 ![npm version](https://img.shields.io/npm/v/passport-xapo.svg)
 
 [Passport](https://passportjs.org/) strategy for authenticating with [Xapo](http://xapo.com/)
