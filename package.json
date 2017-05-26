@@ -1,0 +1,37 @@
+{
+  "name": "passport-xapo",
+  "version": "0.0.1",
+  "description": "XAPO authentication strategy for Passport",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "compile": "babel src --out-dir lib",
+    "prepublish": "npm run lint && npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitrefill/passport-xapo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitrefill/passport-xapo/issues"
+  },
+  "keywords": [
+    "passport",
+    "xapo",
+    "auth",
+    "authentication"
+  ],
+  "author": "Maxim Orlov <maximorl@gmail.com> (https://github.com/Maximization)",
+  "license": "MIT",
+  "dependencies": {
+    "passport-oauth2": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.5.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}
