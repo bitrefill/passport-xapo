@@ -1,6 +1,7 @@
 # passport-xapo
 
 ![License](https://img.shields.io/npm/l/passport-facebook-token.svg)
+![npm version](https://img.shields.io/npm/v/passport-xapo.svg)
 
 [Passport](https://passportjs.org/) strategy for authenticating with [Xapo](http://xapo.com/)
 access tokens using the OAuth 2.0 API.
